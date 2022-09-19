@@ -30,11 +30,11 @@
   letter-spacing: 0.02em;
 
   color: inherit;
-}
 
-.header-contacts:hover,
-.header-contacts:focus {
-  color: var(--brand-color);
+  &:hover,
+  &:focus {
+    color: var(--brand-color);
+  }
 }
 
 .container.header {
@@ -48,9 +48,9 @@
 .header-icon {
   margin-right: 10px;
   fill: currentColor;
-}
 
-.header-icon:hover,
-.header-icon:focus {
-  color: var(--brand-color);
+  &:hover,
+  &:focus {
+    color: var(--brand-color);
+  }
 }

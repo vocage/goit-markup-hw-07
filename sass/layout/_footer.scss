@@ -31,6 +31,11 @@
   line-height: 1.7;
 
   color: var(--accent-color);
+
+  &:hover,
+  &:focus {
+    color: var(--brand-color);
+  }
 }
 
 .footer-contacts {
@@ -42,21 +47,19 @@
   line-height: 1.7;
 
   color: var(--footer-contacts-color);
+
+  &:hover,
+  &:focus {
+    color: var(--brand-color);
+  }
 }
 
 .address li {
   margin-bottom: 9px;
-}
 
-.address li:last-child {
-  margin-bottom: 0px;
-}
-
-.footer-location:hover,
-.footer-location:focus,
-.footer-contacts:hover,
-.footer-contacts:focus {
-  color: var(--brand-color);
+  &:last-child {
+    margin-bottom: 0px;
+  }
 }
 
 .find-us-title {

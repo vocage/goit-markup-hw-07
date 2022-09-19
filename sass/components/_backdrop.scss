@@ -17,11 +17,11 @@
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
-}
 
-.backdrop.is-hidden .modal {
-  border-radius: 50%;
-  background-color: var(--color-accent);
+  .modal {
+    border-radius: 50%;
+    background-color: var(--color-accent);
 
-  transform: translate(100%, 100%) scale(2);
+    transform: translate(100%, 100%) scale(2);
+  }
 }

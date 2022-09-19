@@ -33,10 +33,10 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   background-color: transparent;
   color: var(--accent-color);
-}
 
-.subscribe-input::placeholder {
-  color: rgba(255, 255, 255, 0.6);
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
 
 .subscribe-btn-icon {
@@ -66,9 +66,9 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.subscribe-btn:hover,
-.subscribe-btn:focus {
-  background-color: #008cff;
+  &:hover,
+  &:focus {
+    background-color: #008cff;
+  }
 }

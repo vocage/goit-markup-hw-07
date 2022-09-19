@@ -1,13 +1,13 @@
 .wedo-list {
   display: flex;
-}
 
-.wedo-list .item {
-  position: relative;
-}
+  .item {
+    position: relative;
 
-.wedo-list .item:not(:last-child) {
-  margin-right: 30px;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
 }
 
 .wedo-label {
