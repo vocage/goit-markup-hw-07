@@ -1,0 +1,56 @@
+.page-header > .container {
+  display: flex;
+}
+
+.logo-header {
+  color: var(--logo-header-color);
+}
+
+.site-nav-contacts {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.site-nav-contacts .item + .item {
+  margin-left: 50px;
+}
+
+.header-contacts {
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: inherit;
+}
+
+.header-contacts:hover,
+.header-contacts:focus {
+  color: var(--brand-color);
+}
+
+.container.header {
+  margin-bottom: 0px;
+}
+
+.page-header {
+  border-bottom: 1px solid var(--border-bottom-color);
+}
+
+.header-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.header-icon:hover,
+.header-icon:focus {
+  color: var(--brand-color);
+}
