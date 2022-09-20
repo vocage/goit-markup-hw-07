@@ -1,7 +1,4 @@
 .button {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
   display: inline-block;
   border-radius: 4px;
   border-color: transparent;
@@ -15,6 +12,29 @@
   text-align: center;
   letter-spacing: inherit;
 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  //TODO:Probably should be in _portfolio.scss, but then there is an issue with specificity
+  &.all {
+    padding: 6px 25px;
+    min-width: 73px;
+    min-height: 38px;
+
+    background-color: var(--bg-color-light);
+    color: var(--text-secondary);
+  }
+
+  &.idle {
+    padding: 6px 22px;
+    min-width: 125px;
+    min-height: 38px;
+
+    background-color: var(--bg-color-light);
+    color: var(--text-secondary);
+  }
+  //TODO:Probably should be in _portfolio.scss, but then there is an issue with specificity
+
   &:hover,
   &:focus,
   &:active {
@@ -23,11 +43,3 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
 }
-
-// .button:hover,
-// .button:focus,
-// .button:active {
-//   background-color: var(--brand-color);
-//   color: var(--accent-color);
-//   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-// }

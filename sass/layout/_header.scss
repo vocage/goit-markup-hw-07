@@ -1,7 +1,10 @@
-.page-header > .container {
-  display: flex;
-}
+.page-header {
+  border-bottom: 1px solid var(--border-bottom-color);
 
+  & > .container {
+    display: flex;
+  }
+}
 .logo-header {
   color: var(--logo-header-color);
 }
@@ -10,10 +13,10 @@
   display: flex;
   align-items: center;
   margin-left: auto;
-}
 
-.site-nav-contacts .item + .item {
-  margin-left: 50px;
+  & .item + .item {
+    margin-left: 50px;
+  }
 }
 
 .header-contacts {
@@ -39,10 +42,6 @@
 
 .container.header {
   margin-bottom: 0px;
-}
-
-.page-header {
-  border-bottom: 1px solid var(--border-bottom-color);
 }
 
 .header-icon {
