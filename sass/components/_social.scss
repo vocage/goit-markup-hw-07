@@ -1,7 +1,5 @@
 .social {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %align;
   column-gap: 10px;
 
   padding: 0;
@@ -9,9 +7,7 @@
 }
 
 .social-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %align;
 
   width: 44px;
   height: 44px;
@@ -30,9 +26,7 @@
 }
 
 .social-link-footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %align;
 
   width: 44px;
   height: 44px;

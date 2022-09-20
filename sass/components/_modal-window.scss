@@ -20,10 +20,8 @@
 
 .button-modal-close {
   position: absolute;
+  @extend %align;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
   top: 8px;
   right: 8px;
   padding: 0;

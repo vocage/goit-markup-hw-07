@@ -4,8 +4,7 @@
 }
 
 .customers-list {
-  display: flex;
-  justify-content: center;
+  @extend %align;
 
   .item:not(:last-child) {
     margin-right: 30px;
@@ -13,9 +12,8 @@
 }
 
 .customers-thumb {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %align;
+
   margin-bottom: 0;
   background-color: var(--accent-color);
   border: 1px solid;

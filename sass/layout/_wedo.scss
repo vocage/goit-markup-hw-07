@@ -11,9 +11,8 @@
 }
 
 .wedo-label {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %align;
+
   height: 70px;
   width: 100%;
 

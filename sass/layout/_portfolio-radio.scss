@@ -1,7 +1,5 @@
 .radio {
-  display: flex;
-  justify-content: center;
-
+  @extend %align;
   margin-bottom: 50px;
 
   .item {
