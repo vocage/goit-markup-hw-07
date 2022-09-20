@@ -132,8 +132,8 @@ body {
 
 .logo {
   font-family: "Raleway", sans-serif;
-  font-weight: 700;
   font-size: 26px;
+  font-weight: 700;
   line-height: 1.2;
   color: var(--brand-color);
 }
@@ -236,8 +236,8 @@ body {
 
 .modal-form-title {
   margin-bottom: 12px;
-  font-weight: 700;
   font-size: 20px;
+  font-weight: 700;
   line-height: 1.15;
   text-align: center;
   color: var(--text-secondary);
