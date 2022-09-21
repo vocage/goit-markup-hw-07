@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio Homepage</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,38 +16,37 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/main.min.css" />
-
-    <meta charset="utf-8" />
   </head>
-
   <body>
     <!-- Header Section -->
     <header class="page-header">
-      <div class="container header">
-        <nav class="main-nav">
-          <a href="./index.html" class="logo nodecor">Web<span class="logo-header">Studio</span></a>
-          <ul class="site-nav nolist">
-            <li class="item test">
-              <a class="link current nodecor" href="./index.html">Studio</a>
+      <div class="container">
+        <nav class="page-navigation">
+          <a href="./index.html" class="logo"
+            >Web<span class="logo_half-title_black">Studio</span></a
+          >
+          <ul class="menu nolist">
+            <li class="menu__item">
+              <a class="menu__link menu__link_current_blue" href="./index.html">Studio</a>
             </li>
-            <li class="item">
-              <a class="link nodecor" href="./portfolio.html">Portfolio</a>
+            <li class="menu__item">
+              <a class="menu__link" href="./portfolio.html">Portfolio</a>
             </li>
-            <li class="item"><a class="link nodecor" href="">Contacts</a></li>
+            <li class="menu__item"><a class="menu__link" href="">Contacts</a></li>
           </ul>
         </nav>
 
-        <ul class="site-nav-contacts nolist">
-          <li class="item">
-            <a class="header-contacts nodecor" href="mailto:info@devstudio.com"
-              ><svg class="header-icon" width="16" height="12">
+        <ul class="page-header-contacts nolist">
+          <li class="page-header-contacts__item">
+            <a class="page-header-contacts__element" href="mailto:info@devstudio.com"
+              ><svg class="page-header-contacts__icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use></svg
               >info@devstudio.com</a
             >
           </li>
-          <li class="item">
-            <a class="header-contacts nodecor" href="tel:+380961111111"
-              ><svg class="header-icon" width="16" height="16">
+          <li class="page-header-contacts__item">
+            <a class="page-header-contacts__element" href="tel:+380961111111"
+              ><svg class="page-header-contacts__icon" width="16" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use></svg
               >+380 961 11 11</a
             >
@@ -53,64 +55,97 @@
       </div>
     </header>
 
+    <!-- <header class="page-header">
+      <div class="container">
+        <nav class="page-navigation">
+          <a href="./index.html" class="logo">Web<span class="logo__half-title">Studio</span></a>
+          <ul class="menu nolist">
+            <li class="menu__item"><a class="menu__link" href="./index.html">Studio</a></li>
+            <li class="menu__item">
+              <a class="menu__link menu__link--current" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="menu__item"><a class="menu__link" href="">Contacts</a></li>
+          </ul>
+        </nav>
+
+        <ul class="page-header-contacts nolist">
+          <li class="item">
+            <a class="header-contacts" href="mailto:info@devstudio.com"
+              ><svg class="header-icon" width="16" height="12">
+                <use href="./images/icons.svg#icon-envelope"></use></svg
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="item">
+            <a class="header-contacts" href="tel:+380961111111"
+              ><svg class="header-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-smartphone"></use></svg
+              >+380 961 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header> -->
     <!-- Main section -->
     <main>
       <!-- Hero section -->
-      <section class="section hero hero-container overlay">
-        <h1 class="hero-title">Effective solutions for your business</h1>
-        <button class="button hero" data-modal-open type="button">Request our service</button>
+      <section class="section hero hero__overlay">
+        <h1 class="hero__title">Effective solutions for your business</h1>
+        <button class="button hero__button" data-modal-open type="button">
+          Request our service
+        </button>
       </section>
 
       <!-- Advantages section -->
       <section class="section">
         <div class="container">
           <h2 hidden>Company's advantages</h2>
-          <ul class="adv nolist">
-            <li class="adv-item">
-              <div class="advantages-thumb">
-                <svg class="advantages-icon" width="70px" height="70px">
+          <ul class="advantages nolist">
+            <li class="advantages__item">
+              <div class="advantages__thumb">
+                <svg class="advantages__icon" width="70px" height="70px">
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
 
-              <h3 class="advantages-features">Attention to details</h3>
-              <p class="advantages-text">
+              <h3 class="advantages__features">Attention to details</h3>
+              <p class="advantages__text">
                 We go into all the details and processes of your business to develop a customized
                 solution.
               </p>
             </li>
-            <li class="adv-item">
-              <div class="advantages-thumb">
-                <svg class="advantages-icon" width="70px" height="70px">
+            <li class="advantages__item">
+              <div class="advantages__thumb">
+                <svg class="advantages__icon" width="70px" height="70px">
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="advantages-features">Punctuality</h3>
-              <p class="advantages-text">
+              <h3 class="advantages__features">Punctuality</h3>
+              <p class="advantages__text">
                 With us, you can feel safe and secure. An important principle of the company:
                 respect your time and respect the agreed deadlines.
               </p>
             </li>
-            <li class="adv-item">
-              <div class="advantages-thumb">
-                <svg class="advantages-icon" width="70px" height="70px">
+            <li class="advantages__item">
+              <div class="advantages__thumb">
+                <svg class="advantages__icon" width="70px" height="70px">
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="advantages-features">Planning</h3>
-              <p class="advantages-text">
+              <h3 class="advantages__features">Planning</h3>
+              <p class="advantages__text">
                 You will be able to observe and participate in every phase of solution development
                 and implementation.
               </p>
             </li>
-            <li class="adv-item">
-              <div class="advantages-thumb">
-                <svg class="advantages-icon" width="70px" height="70px">
+            <li class="advantages__item">
+              <div class="advantages__thumb">
+                <svg class="advantages__icon" width="70px" height="70px">
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="advantages-features">Modern technologies</h3>
-              <p class="advantages-text">
+              <h3 class="advantages__features">Modern technologies</h3>
+              <p class="advantages__text">
                 We use innovative tools to solve assigned tasks. It's time to simplify work
                 processes.
               </p>
@@ -173,14 +208,14 @@
                 <p class="team-role">Product Designer</p>
                 <ul class="social">
                   <li>
-                    <a class="social-link nodecor" href="" aria-label="Instagram Icon">
+                    <a class="social-link" href="" aria-label="Instagram Icon">
                       <span class="visually-hidden">Link to Instagram</span>
                       <svg class="social-icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-instagram"></use></svg
                     ></a>
                   </li>
                   <li>
-                    <a class="social-link nodecor" href="" aria-label="Twitter Icon">
+                    <a class="social-link" href="" aria-label="Twitter Icon">
                       <span class="visually-hidden">Link to Twitter</span>
                       <svg class="social-icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-twitter"></use>
@@ -188,7 +223,7 @@
                     </a>
                   </li>
                   <li>
-                    <a class="social-link nodecor" href="" aria-label="Facebook Icon">
+                    <a class="social-link" href="" aria-label="Facebook Icon">
                       <span class="visually-hidden">Link to Facebook</span>
                       <svg class="social-icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-facebook"></use>
@@ -196,7 +231,7 @@
                     </a>
                   </li>
                   <li>
-                    <a class="social-link nodecor" href="" aria-label="LinkedIn Icon">
+                    <a class="social-link" href="" aria-label="LinkedIn Icon">
                       <span class="visually-hidden">Link to LinkedIn</span>
                       <svg class="social-icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-linkedin"></use></svg
@@ -218,14 +253,14 @@
                 <p class="team-role">Frontend Developer</p>
                 <ul class="social">
                   <li>
-                    <a class="social-link nodecor" href="" aria-label="Instagram Icon">
+                    <a class="social-link" href="" aria-label="Instagram Icon">
                       <span class="visually-hidden">Link to Instagram</span>
                       <svg class="social-icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-instagram"></use></svg
                     ></a>
                   </li>
                   <li>
-                    <a class="social-link nodecor" href="" aria-label="Twitter Icon">
+                    <a class="social-link" href="" aria-label="Twitter Icon">
                       <span class="visually-hidden">Link to Twitter</span>
                       <svg class="social-icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-twitter"></use>
@@ -233,7 +268,7 @@
                     </a>
                   </li>
                   <li>
-                    <a class="social-link nodecor" href="" aria-label="Facebook Icon">
+                    <a class="social-link" href="" aria-label="Facebook Icon">
                       <span class="visually-hidden">Link to Facebook</span>
                       <svg class="social-icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-facebook"></use>
@@ -241,7 +276,7 @@
                     </a>
                   </li>
                   <li>
-                    <a class="social-link nodecor" href="" aria-label="LinkedIn Icon">
+                    <a class="social-link" href="" aria-label="LinkedIn Icon">
                       <span class="visually-hidden">Link to LinkedIn</span>
                       <svg class="social-icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-linkedin"></use></svg
@@ -263,14 +298,14 @@
                 <p class="team-role">Marketing</p>
                 <ul class="social">
                   <li>
-                    <a class="social-link nodecor" href="" aria-label="Instagram Icon">
+                    <a class="social-link" href="" aria-label="Instagram Icon">
                       <span class="visually-hidden">Link to Instagram</span>
                       <svg class="social-icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-instagram"></use></svg
                     ></a>
                   </li>
                   <li>
-                    <a class="social-link nodecor" href="" aria-label="Twitter Icon">
+                    <a class="social-link" href="" aria-label="Twitter Icon">
                       <span class="visually-hidden">Link to Twitter</span>
                       <svg class="social-icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-twitter"></use>
@@ -278,7 +313,7 @@
                     </a>
                   </li>
                   <li>
-                    <a class="social-link nodecor" href="" aria-label="Facebook Icon">
+                    <a class="social-link" href="" aria-label="Facebook Icon">
                       <span class="visually-hidden">Link to Facebook</span>
                       <svg class="social-icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-facebook"></use>
@@ -286,7 +321,7 @@
                     </a>
                   </li>
                   <li>
-                    <a class="social-link nodecor" href="" aria-label="LinkedIn Icon">
+                    <a class="social-link" href="" aria-label="LinkedIn Icon">
                       <span class="visually-hidden">Link to LinkedIn</span>
                       <svg class="social-icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-linkedin"></use></svg
@@ -308,14 +343,14 @@
                 <p class="team-role">UI Designer</p>
                 <ul class="social">
                   <li>
-                    <a class="social-link nodecor" href="" aria-label="Instagram Icon">
+                    <a class="social-link" href="" aria-label="Instagram Icon">
                       <span class="visually-hidden">Link to Instagram</span>
                       <svg class="social-icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-instagram"></use></svg
                     ></a>
                   </li>
                   <li>
-                    <a class="social-link nodecor" href="" aria-label="Twitter Icon">
+                    <a class="social-link" href="" aria-label="Twitter Icon">
                       <span class="visually-hidden">Link to Twitter</span>
                       <svg class="social-icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-twitter"></use>
@@ -323,7 +358,7 @@
                     </a>
                   </li>
                   <li>
-                    <a class="social-link nodecor" href="" aria-label="Facebook Icon">
+                    <a class="social-link" href="" aria-label="Facebook Icon">
                       <span class="visually-hidden">Link to Facebook</span>
                       <svg class="social-icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-facebook"></use>
@@ -331,7 +366,7 @@
                     </a>
                   </li>
                   <li>
-                    <a class="social-link nodecor" href="" aria-label="LinkedIn Icon">
+                    <a class="social-link" href="" aria-label="LinkedIn Icon">
                       <span class="visually-hidden">Link to LinkedIn</span>
                       <svg class="social-icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-linkedin"></use></svg
@@ -348,42 +383,42 @@
           <h2 class="title">Regular Customers</h2>
           <ul class="customers-list nolist">
             <li class="item">
-              <a class="nodecor customers-thumb" href="">
+              <a class="customers-thumb" href="">
                 <svg class="customers-icon" width="106px" height="60px">
                   <use href="./images/icons.svg#icon-client1"></use>
                 </svg>
               </a>
             </li>
             <li class="item">
-              <a class="nodecor customers-thumb" href="">
+              <a class="customers-thumb" href="">
                 <svg class="customers-icon" width="106px" height="60px">
                   <use href="./images/icons.svg#icon-client2"></use>
                 </svg>
               </a>
             </li>
             <li class="item">
-              <a class="nodecor customers-thumb" href="">
+              <a class="customers-thumb" href="">
                 <svg class="customers-icon" width="106px" height="60px">
                   <use href="./images/icons.svg#icon-client3"></use>
                 </svg>
               </a>
             </li>
             <li class="item">
-              <a class="nodecor customers-thumb" href="">
+              <a class="customers-thumb" href="">
                 <svg class="customers-icon" width="106px" height="60px">
                   <use href="./images/icons.svg#icon-client4"></use>
                 </svg>
               </a>
             </li>
             <li class="item">
-              <a class="nodecor customers-thumb" href="">
+              <a class="customers-thumb" href="">
                 <svg class="customers-icon" width="106px" height="60px">
                   <use href="./images/icons.svg#icon-client5"></use>
                 </svg>
               </a>
             </li>
             <li class="item">
-              <a class="nodecor customers-thumb" href="">
+              <a class="customers-thumb" href="">
                 <svg class="customers-icon" width="106px" height="60px">
                   <use href="./images/icons.svg#icon-client6"></use>
                 </svg>
@@ -398,26 +433,24 @@
     <footer class="footer">
       <div class="container footer-main">
         <div class="footer-address">
-          <a class="logo logo-footer nodecor" href="./index.html"
-            >Web<span class="logo-spn">Studio</span></a
+          <a class="logo logo-footer" href="./index.html"
+            >Web<span class="logo-footer__half-title">Studio</span></a
           >
           <address>
             <ul class="nolist address">
               <li>
                 <a
-                  class="footer-location nodecor"
+                  class="footer-location"
                   href="https://goo.gl/maps/E1iEUMU5giMTUFDc8"
                   target="_blank"
                   >695 Park Ave, New York, NY 10065, United States
                 </a>
               </li>
               <li>
-                <a class="footer-contacts nodecor" href="mailto:info@example.com"
-                  >info@example.com</a
-                >
+                <a class="footer-contacts" href="mailto:info@example.com">info@example.com</a>
               </li>
               <li>
-                <a class="footer-contacts nodecor" href="tel:+12127724150">+1 212-772-4150</a>
+                <a class="footer-contacts" href="tel:+12127724150">+1 212-772-4150</a>
               </li>
             </ul>
           </address>
@@ -427,14 +460,14 @@
           <p class="find-us-title">Find us on</p>
           <ul class="social">
             <li>
-              <a class="social-link-footer nodecor" href="" aria-label="Instagram Icon">
+              <a class="social-link-footer" href="" aria-label="Instagram Icon">
                 <span class="visually-hidden">Link to Instagram</span>
                 <svg class="social-icon" width="20px" height="20px">
                   <use href="./images/icons.svg#icon-instagram"></use></svg
               ></a>
             </li>
             <li>
-              <a class="social-link-footer nodecor" href="" aria-label="Twitter Icon">
+              <a class="social-link-footer" href="" aria-label="Twitter Icon">
                 <span class="visually-hidden">Link to Twitter</span>
                 <svg class="social-icon" width="20px" height="20px">
                   <use href="./images/icons.svg#icon-twitter"></use>
@@ -442,7 +475,7 @@
               </a>
             </li>
             <li>
-              <a class="social-link-footer nodecor" href="" aria-label="Facebook Icon">
+              <a class="social-link-footer" href="" aria-label="Facebook Icon">
                 <span class="visually-hidden">Link to Facebook</span>
                 <svg class="social-icon" width="20px" height="20px">
                   <use href="./images/icons.svg#icon-facebook"></use>
@@ -450,7 +483,7 @@
               </a>
             </li>
             <li>
-              <a class="social-link-footer nodecor" href="" aria-label="LinkedIn Icon">
+              <a class="social-link-footer" href="" aria-label="LinkedIn Icon">
                 <span class="visually-hidden">Link to LinkedIn</span>
                 <svg class="social-icon" width="20px" height="20px">
                   <use href="./images/icons.svg#icon-linkedin"></use></svg

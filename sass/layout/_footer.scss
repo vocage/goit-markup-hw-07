@@ -2,7 +2,7 @@
   display: inline-block;
   margin-bottom: 20px;
 }
-.logo-spn {
+.logo-footer__half-title {
   color: var(--accent-color);
 }
 
@@ -31,6 +31,7 @@
   line-height: 1.7;
 
   color: var(--accent-color);
+  text-decoration: none;
 
   &:hover,
   &:focus {
@@ -47,6 +48,7 @@
   line-height: 1.7;
 
   color: var(--footer-contacts-color);
+  text-decoration: none;
 
   &:hover,
   &:focus {

@@ -1,8 +1,8 @@
-.adv {
+.advantages {
   display: flex;
 }
 
-.advantages-thumb {
+.advantages__thumb {
   @extend %align;
 
   width: 270px;
@@ -18,7 +18,7 @@
   }
 }
 
-.advantages-features {
+.advantages__features {
   margin-bottom: 10px;
 
   font-weight: 700;
@@ -29,11 +29,11 @@
   color: var(--text-secondary);
 }
 
-.advantages-text {
+.advantages__text {
   font-size: 14px;
   line-height: 1.7;
 }
 
-.adv-item:not(:last-child) {
+.advantages__item:not(:last-child) {
   margin-right: 30px;
 }

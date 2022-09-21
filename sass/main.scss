@@ -1,28 +1,33 @@
-@import './utils/variables';
-@import './utils/visually-hidden';
-@import './utils/mixins';
-@import './utils/placeholders';
+@import './utils/index';
+@import './base/index';
+@import './components/index';
+@import './layout/index';
 
-@import './base/common';
-@import './base/section';
-@import './base/container';
+// @import './utils/variables';
+// @import './utils/visually-hidden';
+// @import './utils/mixins';
+// @import './utils/placeholders';
 
-@import './components/button';
-@import './components/logo';
-@import './components/title';
-@import './components/social';
-@import './components/backdrop';
-@import './components/modal-window';
-@import './components/modal-form';
+// @import './base/common';
+// @import './base/section';
+// @import './base/container';
 
-@import './layout/header';
-@import './layout/navigation';
-@import './layout/hero';
-@import './layout/advantages';
-@import './layout/wedo';
-@import './layout/team';
-@import './layout/customers';
-@import './layout/portfolio-radio';
-@import './layout/portfolio';
-@import './layout/footer';
-@import './layout/subscribe';
+// @import './components/button';
+// @import './components/logo';
+// @import './components/title';
+// @import './components/social';
+// @import './components/backdrop';
+// @import './components/modal-window';
+// @import './components/modal-form';
+
+// @import './layout/header';
+// @import './layout/navigation';
+// @import './layout/hero';
+// @import './layout/advantages';
+// @import './layout/wedo';
+// @import './layout/team';
+// @import './layout/customers';
+// @import './layout/portfolio-radio';
+// @import './layout/portfolio';
+// @import './layout/footer';
+// @import './layout/subscribe';

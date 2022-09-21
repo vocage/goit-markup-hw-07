@@ -20,29 +20,33 @@
   <body>
     <!-- Header Section -->
     <header class="page-header">
-      <div class="container header">
-        <nav class="main-nav">
-          <a href="./index.html" class="logo nodecor">Web<span class="logo-header">Studio</span></a>
-          <ul class="site-nav nolist">
-            <li class="item"><a class="link nodecor" href="./index.html">Studio</a></li>
-            <li class="item">
-              <a class="link current nodecor" href="./portfolio.html">Portfolio</a>
+      <div class="container">
+        <nav class="page-navigation">
+          <a href="./index.html" class="logo"
+            >Web<span class="logo_half-title_black">Studio</span></a
+          >
+          <ul class="menu nolist">
+            <li class="menu__item test">
+              <a class="menu__link" href="./index.html">Studio</a>
             </li>
-            <li class="item"><a class="link nodecor" href="">Contacts</a></li>
+            <li class="menu__item">
+              <a class="menu__link menu__link_current_blue" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="menu__item"><a class="menu__link" href="">Contacts</a></li>
           </ul>
         </nav>
 
-        <ul class="site-nav-contacts nolist">
-          <li class="item">
-            <a class="header-contacts nodecor" href="mailto:info@devstudio.com"
-              ><svg class="header-icon" width="16" height="12">
+        <ul class="page-header-contacts nolist">
+          <li class="page-header-contacts__item">
+            <a class="page-header-contacts__element" href="mailto:info@devstudio.com"
+              ><svg class="page-header-contacts__icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use></svg
               >info@devstudio.com</a
             >
           </li>
-          <li class="item">
-            <a class="header-contacts nodecor" href="tel:+380961111111"
-              ><svg class="header-icon" width="16" height="16">
+          <li class="page-header-contacts__item">
+            <a class="page-header-contacts__element" href="tel:+380961111111"
+              ><svg class="page-header-contacts__icon" width="16" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use></svg
               >+380 961 11 11</a
             >
@@ -50,6 +54,71 @@
         </ul>
       </div>
     </header>
+    <!-- <header class="page-header">
+      <div class="container header">
+        <nav class="main-nav">
+          <a href="./index.html" class="logo">Web<span class="logo-header">Studio</span></a>
+          <ul class="site-nav nolist">
+            <li class="item test">
+              <a class="link" href="./index.html">Studio</a>
+            </li>
+            <li class="item">
+              <a class="link current" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="item"><a class="link" href="">Contacts</a></li>
+          </ul>
+        </nav> -->
+
+    <!-- <ul class="site-nav-contacts nolist">
+          <li class="item">
+            <a class="header-contacts" href="mailto:info@devstudio.com"
+              ><svg class="header-icon" width="16" height="12">
+                <use href="./images/icons.svg#icon-envelope"></use></svg
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="item">
+            <a class="header-contacts" href="tel:+380961111111"
+              ><svg class="header-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-smartphone"></use></svg
+              >+380 961 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header> -->
+
+    <!-- <header class="page-header">
+      <div class="container">
+        <nav class="page-navigation">
+          <a href="./index.html" class="logo">Web<span class="logo__half-title">Studio</span></a>
+          <ul class="menu nolist">
+            <li class="menu__item"><a class="menu__link" href="./index.html">Studio</a></li>
+            <li class="menu__item">
+              <a class="menu__link menu__link--current" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="menu__item"><a class="menu__link" href="">Contacts</a></li>
+          </ul>
+        </nav>
+
+        <ul class="page-header-contacts nolist">
+          <li class="item">
+            <a class="header-contacts" href="mailto:info@devstudio.com"
+              ><svg class="header-icon" width="16" height="12">
+                <use href="./images/icons.svg#icon-envelope"></use></svg
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="item">
+            <a class="header-contacts" href="tel:+380961111111"
+              ><svg class="header-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-smartphone"></use></svg
+              >+380 961 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header> -->
 
     <!-- Main section -->
     <main>
@@ -66,7 +135,7 @@
           <!-- List of items with filter -->
           <ul class="portfolio nolist">
             <li class="item">
-              <a class="portfolio-item-link nodecor" href="">
+              <a class="portfolio-item-link" href="">
                 <div class="portfolio-overlay">
                   <img
                     src="./images/portfolio/technoduck.jpg"
@@ -89,7 +158,7 @@
               </a>
             </li>
             <li class="item">
-              <a class="portfolio-item-link nodecor" href="">
+              <a class="portfolio-item-link" href="">
                 <div class="portfolio-overlay">
                   <img
                     src="./images/portfolio/poster-new-orlean-vs-golden-star.jpg"
@@ -112,7 +181,7 @@
               </a>
             </li>
             <li class="item">
-              <a class="portfolio-item-link nodecor" href="">
+              <a class="portfolio-item-link" href="">
                 <div class="portfolio-overlay">
                   <img
                     src="./images/portfolio/seafood-restaurant.jpg"
@@ -135,7 +204,7 @@
               </a>
             </li>
             <li class="item">
-              <a class="portfolio-item-link nodecor" href="">
+              <a class="portfolio-item-link" href="">
                 <div class="portfolio-overlay">
                   <img
                     src="./images/portfolio/project-prime.jpg"
@@ -158,7 +227,7 @@
               </a>
             </li>
             <li class="item">
-              <a class="portfolio-item-link nodecor" href="">
+              <a class="portfolio-item-link" href="">
                 <div class="portfolio-overlay">
                   <img
                     src="./images/portfolio/project-boxes.jpg"
@@ -181,7 +250,7 @@
               </a>
             </li>
             <li class="item">
-              <a class="portfolio-item-link nodecor" href="">
+              <a class="portfolio-item-link" href="">
                 <div class="portfolio-overlay">
                   <img
                     src="./images/portfolio/inspiration-has-no-borders.jpg"
@@ -204,7 +273,7 @@
               </a>
             </li>
             <li class="item">
-              <a class="portfolio-item-link nodecor" href="">
+              <a class="portfolio-item-link" href="">
                 <div class="portfolio-overlay">
                   <img
                     src="./images/portfolio/limited-edition.jpg"
@@ -227,7 +296,7 @@
               </a>
             </li>
             <li class="item">
-              <a class="portfolio-item-link nodecor" href="">
+              <a class="portfolio-item-link" href="">
                 <div class="portfolio-overlay">
                   <img
                     src="./images/portfolio/project-lab.jpg"
@@ -250,7 +319,7 @@
               </a>
             </li>
             <li class="item">
-              <a class="portfolio-item-link nodecor" href="">
+              <a class="portfolio-item-link" href="">
                 <div class="portfolio-overlay">
                   <img
                     src="./images/portfolio/growing-business.jpg"
@@ -280,26 +349,24 @@
     <footer class="footer">
       <div class="container footer-main">
         <div class="footer-address">
-          <a class="logo logo-footer nodecor" href="./index.html"
+          <a class="logo logo-footer" href="./index.html"
             >Web<span class="logo-spn">Studio</span></a
           >
           <address>
             <ul class="nolist address">
               <li>
                 <a
-                  class="footer-location nodecor"
+                  class="footer-location"
                   href="https://goo.gl/maps/E1iEUMU5giMTUFDc8"
                   target="_blank"
                   >695 Park Ave, New York, NY 10065, United States
                 </a>
               </li>
               <li>
-                <a class="footer-contacts nodecor" href="mailto:info@example.com"
-                  >info@example.com</a
-                >
+                <a class="footer-contacts" href="mailto:info@example.com">info@example.com</a>
               </li>
               <li>
-                <a class="footer-contacts nodecor" href="tel:+12127724150">+1 212-772-4150</a>
+                <a class="footer-contacts" href="tel:+12127724150">+1 212-772-4150</a>
               </li>
             </ul>
           </address>
@@ -309,14 +376,14 @@
           <p class="find-us-title">Find us on</p>
           <ul class="social">
             <li>
-              <a class="social-link-footer nodecor" href="" aria-label="Instagram Icon">
+              <a class="social-link-footer" href="" aria-label="Instagram Icon">
                 <span class="visually-hidden">Link to Instagram</span>
                 <svg class="social-icon" width="20px" height="20px">
                   <use href="./images/icons.svg#icon-instagram"></use></svg
               ></a>
             </li>
             <li>
-              <a class="social-link-footer nodecor" href="" aria-label="Twitter Icon">
+              <a class="social-link-footer" href="" aria-label="Twitter Icon">
                 <span class="visually-hidden">Link to Twitter</span>
                 <svg class="social-icon" width="20px" height="20px">
                   <use href="./images/icons.svg#icon-twitter"></use>
@@ -324,7 +391,7 @@
               </a>
             </li>
             <li>
-              <a class="social-link-footer nodecor" href="" aria-label="Facebook Icon">
+              <a class="social-link-footer" href="" aria-label="Facebook Icon">
                 <span class="visually-hidden">Link to Facebook</span>
                 <svg class="social-icon" width="20px" height="20px">
                   <use href="./images/icons.svg#icon-facebook"></use>
@@ -332,7 +399,7 @@
               </a>
             </li>
             <li>
-              <a class="social-link-footer nodecor" href="" aria-label="LinkedIn Icon">
+              <a class="social-link-footer" href="" aria-label="LinkedIn Icon">
                 <span class="visually-hidden">Link to LinkedIn</span>
                 <svg class="social-icon" width="20px" height="20px">
                   <use href="./images/icons.svg#icon-linkedin"></use></svg
