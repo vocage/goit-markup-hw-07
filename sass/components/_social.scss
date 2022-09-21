@@ -6,7 +6,7 @@
   list-style: none;
 }
 
-.social-link {
+.social__link {
   @extend %align;
 
   width: 44px;
@@ -26,7 +26,7 @@
   }
 }
 
-.social-link-footer {
+.social__link-footer {
   @extend %align;
 
   width: 44px;
@@ -45,6 +45,6 @@
   }
 }
 
-.social-icon {
+.social__icon {
   fill: currentColor;
 }

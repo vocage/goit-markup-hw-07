@@ -1,4 +1,4 @@
-.modal-form-title {
+.modal-form__title {
   margin-bottom: 12px;
 
   @include font(20px, 700, 1.15);
@@ -12,7 +12,7 @@
   flex-direction: column;
 }
 
-.modal-form-label {
+.modal-form__label {
   margin-bottom: 10px;
 
   font-size: 12px;
@@ -22,11 +22,11 @@
   color: var(--text-primary);
 }
 
-.modal-form-label-comments {
+.modal-form__label-comments {
   margin-bottom: 20px;
 }
 
-.modal-form-field-desc {
+.modal-form__field-desc {
   display: block;
   margin-bottom: 4px;
 
@@ -37,12 +37,12 @@
   color: var(--text-primary);
 }
 
-.modal-form-input-wrapper {
+.modal-form__input-wrapper {
   display: block;
   position: relative;
 }
 
-.modal-form-input {
+.modal-form__input {
   width: 100%;
   height: 40px;
   padding-left: 42px;
@@ -60,7 +60,7 @@
   }
 }
 
-.modal-form-input-icon {
+.modal-form__input-icon {
   position: absolute;
   top: 50%;
   left: 12px;
@@ -68,12 +68,12 @@
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  .modal-form-input:focus + & {
+  .modal-form__input:focus + & {
     fill: var(--brand-color);
   }
 }
 
-.modal-form-comments {
+.modal-form__comments {
   display: block;
   width: 100%;
   height: 120px;
@@ -100,7 +100,7 @@
   }
 }
 
-.modal-form-terms {
+.modal-form__terms {
   display: flex;
   align-items: center;
   white-space: nowrap;
@@ -113,49 +113,49 @@
   color: var(--text-primary);
 }
 
-.modal-form-check {
+.modal-form__check {
   position: absolute;
   appearance: none;
 }
 
-.modal-form-checkbox {
+.modal-form__checkbox {
   margin-right: 7px;
   fill: var(--brand-color);
   cursor: pointer;
 
-  .modal-form-check:checked + & {
+  .modal-form__check:checked + & {
     border: none;
   }
 
-  .modal-form-check:focus + & {
+  .modal-form__check:focus + & {
     box-shadow: 0 0 0 2px rgba(0, 153, 255, 0.5);
   }
 }
 
-.modal-form-checkbox-icon {
+.modal-form__checkbox-icon {
   display: none;
 
-  .modal-form-check:checked + .modal-form-checkbox & {
+  .modal-form__check:checked + .modal-form__checkbox & {
     display: block;
   }
 }
 
-.modal-form-unchecked {
+.modal-form__unchecked {
   position: absolute;
   cursor: pointer;
 
-  .modal-form-check:checked ~ & {
+  .modal-form__check:checked ~ & {
     display: none;
   }
 }
 
-.modal-form-link {
+.modal-form__link {
   margin-left: 5px;
   color: var(--brand-color);
   text-decoration: underline;
 }
 
-.send-btn {
+.modal-form_send-btn {
   align-self: center;
 
   width: 200px;

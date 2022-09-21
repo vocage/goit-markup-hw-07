@@ -1,8 +1,8 @@
-.radio {
+.radio-btn {
   @extend %align;
   margin-bottom: 50px;
 
-  .item {
+  .radio-btn__item {
     margin-bottom: 0;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 

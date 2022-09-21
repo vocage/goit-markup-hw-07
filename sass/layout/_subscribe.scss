@@ -2,7 +2,7 @@
   margin-left: auto;
 }
 
-.subscribe-title {
+.subscribe__title {
   margin-bottom: 20px;
 
   font-weight: 700;
@@ -12,16 +12,16 @@
   color: var(--accent-color);
 }
 
-.subscribe-form {
+.subscribe__form {
   display: flex;
   column-gap: 12px;
 }
 
-.subscribe-label {
+.subscribe__form-label {
   display: flex;
 }
 
-.subscribe-input {
+.subscribe__form-input {
   display: flex;
   align-items: center;
   width: 358px;
@@ -39,7 +39,7 @@
   }
 }
 
-.subscribe-btn-icon {
+.subscribe-btn__icon {
   fill: var(--accent-color);
 }
 

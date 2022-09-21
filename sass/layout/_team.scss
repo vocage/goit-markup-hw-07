@@ -1,13 +1,13 @@
-.team {
+.section__team {
   background-color: var(--bg-color-light);
   margin-bottom: 0px;
 }
 
-.team-list {
+.team {
   display: flex;
 }
 
-.team-member {
+.team__member-card {
   background-color: var(--accent-color);
   border-radius: 0 0 4px 4px;
   margin-bottom: 0;
@@ -19,14 +19,14 @@
   }
 }
 
-.team-member-description {
+.team__member-description {
   margin: 0;
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
 }
 
-.team-name {
+.team__member-name {
   margin-bottom: 10px;
 
   font-weight: 500;
@@ -36,7 +36,7 @@
   color: var(--text-secondary);
 }
 
-.team-role {
+.team__member-role {
   margin-bottom: 16px;
 
   font-weight: 400;

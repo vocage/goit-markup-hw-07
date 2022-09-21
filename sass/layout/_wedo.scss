@@ -1,7 +1,7 @@
-.wedo-list {
+.wedo {
   display: flex;
 
-  .item {
+  .wedo__item {
     position: relative;
 
     &:not(:last-child) {
@@ -10,7 +10,7 @@
   }
 }
 
-.wedo-label {
+.wedo__label {
   @extend %align;
 
   height: 70px;

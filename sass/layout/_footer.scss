@@ -1,8 +1,8 @@
-.logo-footer {
+.logo__footer {
   display: inline-block;
   margin-bottom: 20px;
 }
-.logo-footer__half-title {
+.logo__half-title_white {
   color: var(--accent-color);
 }
 
@@ -15,12 +15,12 @@
   background-color: var(--bg-color-dark);
 }
 
-.footer-main {
+.footer__wrapper {
   display: flex;
   align-items: baseline;
 }
 
-.footer-location {
+.footer-address__location {
   display: inline-block;
   width: 233px;
 
@@ -39,7 +39,7 @@
   }
 }
 
-.footer-contacts {
+.footer-address__contacts {
   display: inline-block;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -56,7 +56,7 @@
   }
 }
 
-.address li {
+.footer-address .footer-address__item {
   margin-bottom: 9px;
 
   &:last-child {
@@ -64,7 +64,7 @@
   }
 }
 
-.find-us-title {
+.find-us__title {
   margin-bottom: 20px;
 
   font-weight: 700;
